@@ -8,7 +8,7 @@
       "matchStrings": [
         "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*(version|appVersion): (\"){0,}(?<currentValue>[0-9.]*)(\"){0,}"
       ],
-      "versioningTemplate": "regex:^argo-cd-(?<major>\d+?)\.(?<minor>\d+?)\.(?<patch>\d+)$"
+      "extractVersionTemplate": "^argo-cd-(?<version>\S+)"
     }
   ]
 }
