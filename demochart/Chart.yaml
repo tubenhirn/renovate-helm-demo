@@ -17,7 +17,7 @@ type: application
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 
 # renovate: datasource=github-releases depName=argoproj/argo-helm
-version: 0.1.0
+version: 5.24.1
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
@@ -29,4 +29,4 @@ dependencies:
   - name: testing
     repository: "https://argoproj.github.io/argo-helm"
     # renovate: datasource=github-releases depName=argoproj/argo-helm
-    version: 1.0.0
+    version: 5.24.1
