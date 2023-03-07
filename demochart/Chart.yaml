@@ -16,7 +16,7 @@ type: application
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 
-# renovate: datasource=github depName=argoproj/argo-helm
+# renovate: datasource=github-releases depName=argoproj/argo-helm
 version: 0.1.0
 
 # This is the version number of the application being deployed. This version number should be
@@ -28,5 +28,5 @@ appVersion: "1.16.0"
 dependencies:
   - name: testing
     repository: "https://argoproj.github.io/argo-helm"
-    # renovate: datasource=github depName=argoproj/argo-helm
+    # renovate: datasource=github-releases depName=argoproj/argo-helm
     version: 1.0.0
