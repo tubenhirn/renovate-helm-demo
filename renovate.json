@@ -9,7 +9,7 @@
         "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s*(version|appVersion): (\"){0,}(?<currentValue>[0-9.]*)(\"){0,}"
       ],
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
-      "extractVersionTemplate": "regex:^argo-cd-(?<major>\\d+?)\\.(?<minor>\\d+?)\\.(?<patch>\\d+)$"
+      "extractVersionTemplate": "regex:^argo-cd-(?<major>\d+?)\.(?<minor>\d+?)\.(?<patch>\d+)$"
     }
   ]
 }
